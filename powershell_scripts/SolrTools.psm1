@@ -225,13 +225,19 @@ function New-SolrCollectionsSitecore81 {
         [string[]] $collectionNames = 
             ("sitecore_testing_index", 
             "sitecore_suggested_test_index", 
+            "sitecore_marketing_asset_index_master",
+            "sitecore_marketing_asset_index_web",
+            "sitecore_marketingdefinitions_master",
+            "sitecore_marketingdefinitions_web",
             "sitecore_fxm_master_index", 
             "sitecore_fxm_web_index", 
             "sitecore_list_index", 
             "sitecore_analytics_index", 
             "sitecore_core_index", 
             "sitecore_master_index", 
-            "sitecore_web_index")
+            "sitecore_web_index",
+            "social_messages_master",
+            "social_messages_web")
     )
 
     #Build the solr url
@@ -309,13 +315,19 @@ function Remove-SolrCollectionsForSitecore81 {
         [string[]] $collectionNames = 
             ("sitecore_testing_index", 
             "sitecore_suggested_test_index", 
+            "sitecore_marketing_asset_index_master",
+            "sitecore_marketing_asset_index_web",
+            "sitecore_marketingdefinitions_master",
+            "sitecore_marketingdefinitions_web",
             "sitecore_fxm_master_index", 
             "sitecore_fxm_web_index", 
             "sitecore_list_index", 
             "sitecore_analytics_index", 
             "sitecore_core_index", 
             "sitecore_master_index", 
-            "sitecore_web_index")
+            "sitecore_web_index",
+            "social_messages_master",
+            "social_messages_web")
     )
 
     #Build the solr url
